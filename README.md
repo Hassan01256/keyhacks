@@ -93,7 +93,7 @@ KeyHacks shows ways in which particular API keys found on a Bug Bounty Program c
 - [Zapier Webhook Token](#Zapier-Webhook-Token)
 - [Zendesk Access token](#Zendesk-Access-Token)
 - [Zendesk API key](#Zendesk-api-key)
-
+- [Rollbar API key](#Rollbar-api-key)
 
 # Detailed Information
 
@@ -882,6 +882,12 @@ A Successful Passkey Request returns a JSON object containing company name
 curl 'https://which-cpv-api.bazaarvoice.com/clientInfo?conversationspasskey=<Passkey>' --insecure 
 
 ```
+
+## [Rollbar](https://docs.rollbar.com/reference/getting-started-1)
+```
+curl --header 'X-Rollbar-Access-Token: YOUR_ACCESS_TOKEN' 'https://api.rollbar.com/api/1/item/12345'
+```
+
 
 # Contributing
 
